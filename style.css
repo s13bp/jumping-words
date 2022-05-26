@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anybody', cursive;
+    font-size: 45px;
+    font-weight: 500;
+}
+body{
+    background-color: darkgreen;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.wrapper{
+    box-sizing: content-box;
+    background-color: #ffffff;
+    height: 45px;
+    padding: 50px 30px;
+    display: flex;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+    transition:all;
+}
+.words{
+    overflow: hidden;
+}
+span{
+    display: block;
+    height: auto;
+    padding-left: 10px;
+    color: #0e6ffc;
+    animation: spin_words 11.875s ease-in-out;
+    -webkit-animation: spin_words 11.875s ease-in-out;
+   
+    
+}
+@keyframes spin_words{
+    0%{
+        transform:translateY(-100%);
+    }
+    7.95%{
+        transform:translateY(-200%)
+    }
+    11.72%{
+        transform: translateY(-300%);
+    }
+    17.31%{
+        transform: translateY(-400%);
+    }
+    22.72%{
+        transform: translateY(-500%);
+    }
+    27.95%{
+        transform: translateY(-600%);
+    }
+    33%{
+        transform: translateY(-700%);
+    }
+    37.86%{
+        transform: translateY(-800%);
+    }
+    42.54%{
+        transform: translateY(-900%);
+    }
+    47.04%{
+        transform: translateY(-1000%);
+    }
+    51.35%{
+        transform: translateY(-1100%);
+    }
+    55.5%{
+        transform: translateY(-1200%);
+    }
+    59.46%{
+        transform: translateY(-1300%);
+    }
+    63.24%{
+        transform: translateY(-1400%);
+    }
+    66.84%{
+        transform: translateY(-1500%);
+    }
+    70.25%{
+        transform: translateY(-1600%);
+    }
+    73.5%{
+        transform: translateY(-1700%);
+    }
+    76.56%{
+        transform: translateY(-1800%);
+    }
+    79.44%{
+        transform: translateY(-1900%);
+    }
+    82.14%{
+        transform: translateY(-2000%);
+    }
+    84.66%{
+        transform: translateY(-2100%);
+    }
+    87%{
+        transform: translateY(-2200%);
+    }
+    89.16%{
+        transform: translateY(-2300%);
+    }
+    91.14%{
+        transform: translateY(-2400%);
+    }
+    92.94%{
+        transform: translateY(-2500%);
+    }
+    94.56%{
+        transform: translateY(-2600%);
+    }
+    96%{
+        transform: translateY(-2700%);
+    }
+    97.26%{
+        transform: translateY(-2800%);
+    }
+    98.34%{
+        transform: translateY(-2900%);
+    }
+    100%{
+        transform: translateY(-3000%);
+    }
+  
+  
+}
